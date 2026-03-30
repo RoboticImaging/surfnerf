@@ -57,7 +57,7 @@ SCENE=lego \
 ```
 
 ## Acknowledgements
-The authors gratefully acknowledge our anonymous reviewers for their comments which improved our manuscript. This research was supported in part by funding from Ford Motor Company and the ARC Research Hub in Intelligent Robotic Systems for Real-Time Asset Management (IH210100030). Computational aspects of the work were supported in part through the NVIDIA Academic Grant Program and with Cloud TPUs from Google’s TPU Research Cloud (TRC). 
+The authors gratefully acknowledge our anonymous reviewers for their comments which improved our manuscript. This research was supported in part by funding from Ford Motor Company and the ARC Research Hub in Intelligent Robotic Systems for Real-Time Asset Management (IH210100030). This research was conducted using resources of the National Computing Infrastructure HPC ‘Gadi’, an NCRIS-enabled capability supported by the Australian Government. Access to these resources was provided by the Sydney Informatics Hub, a Core Research Facility of The University of Sydney, as supported by the Deputy Vice-Chancellor (Research). Other computational aspects of the work were supported in part through the NVIDIA Academic Grant Program and with Cloud TPUs from Google’s TPU Research Cloud (TRC). 
 
 ## Citation
 
