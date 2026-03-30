@@ -1,0 +1,3 @@
+include 'configs/zipnerf/blender.gin'
+
+Config.hash_grid_type = "permuto"

@@ -1,0 +1,24 @@
+include 'configs/ziprefnerf/360_surf.gin'
+
+Config.dataset_loader = 'blender'
+Config.near = 2
+Config.far = 6
+Config.factor = 0
+
+Model.bg_intensity_range = (1, 1)  # Assume a white background.
+Model.raydist_fn = None
+
+Config.param_regularizers = {
+    'grid_0': (10, @jnp.mean, 2, 1),
+    'grid_1': (10, @jnp.mean, 2, 1),
+    'grid_2': (10, @jnp.mean, 2, 1),
+}
+
+
+Config.surface_spatial_loss_mult = 0.05
+Config.surface_normal_loss_mult = 0.05
+Config.surface_tv_loss_mult = 0.0
+Config.surface_bias_loss_mult = 1e-2
+
+Config.compute_disp_metrics = True
+Config.compute_normal_metrics = True

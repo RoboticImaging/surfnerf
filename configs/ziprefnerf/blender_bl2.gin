@@ -1,0 +1,28 @@
+include 'configs/ziprefnerf/360.gin'
+
+Config.dataset_loader = 'blender'
+Config.near = 2
+Config.far = 6
+Config.factor = 0
+
+Model.bg_intensity_range = (1, 1)  # Assume a white background.
+Model.raydist_fn = None
+
+Config.param_regularizers = {
+    'grid_0': (10, @jnp.mean, 2, 1),
+    'grid_1': (10, @jnp.mean, 2, 1),
+    'grid_2': (10, @jnp.mean, 2, 1),
+}
+
+
+Config.compute_disp_metrics = True
+Config.compute_normal_metrics = True
+
+
+#Config.hash_grid_type = "permuto"
+
+Config.max_steps = 120000
+Config.batch_size = 8192
+Config.lr_delay_steps = 10000
+Config.lr_init = 0.000125
+Config.lr_final = 0.000125
