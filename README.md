@@ -57,7 +57,7 @@ SCENE=lego \
 ```
 
 ## Acknowledgements
-We gratefully acknowledge our anonymous reviewers for their comments which improved our manuscript. This research was supported in part by funding from Ford Motor Company. This work was supported by the ARC Research Hub in Intelligent Robotic Systems for Real-Time Asset Management (IH210100030). This research was supported in part through the NVIDIA Academic Grant Program. This work was partially supported with Cloud TPUs from Google’s TPU Research Cloud (TRC). 
+The authors gratefully acknowledge our anonymous reviewers for their comments which improved our manuscript. This research was supported in part by funding from Ford Motor Company and the ARC Research Hub in Intelligent Robotic Systems for Real-Time Asset Management (IH210100030). Computational aspects of the work were supported in part through the NVIDIA Academic Grant Program and with Cloud TPUs from Google’s TPU Research Cloud (TRC). 
 
 ## Citation
 
